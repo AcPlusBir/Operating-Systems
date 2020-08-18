@@ -1,0 +1,46 @@
+    1  ls
+    2  mkdir week1
+    3  ls
+    4  mv week1 OS
+    5  ls
+    6  cd OS
+    7  ls
+    8  mkdir week1
+    9  ls
+   10  cd week1
+   11  ls -l in/usr/bin /home/OS/week1/ex1.txt
+   12  gedit ex1.txt
+   13  gedit ex2.txt
+   14  gedit ex3.txt
+   15  gedit ex4.txt
+   16  pwd
+   17  ls -l in/usr/bin/"gcc" /home/OS/week1/ex1.txt
+   18  ls -l in/usr/bin/"gcc" /home/ubuntu/OS/week1/ex1.txt
+   19  ls -l in/usr/bin/"gcc" home/ubuntu/OS/week1/ex1.txt
+   20  ls -l in/usr/bin/"gcc" /home/ubuntu/OS/week1/ex1.txt
+   21  ls -l ~in/usr/bin/"gcc" /home/ubuntu/OS/week1/ex1.txt
+   22  ls -l in/usr/bin/"gcc" /home/ubuntu/OS/week1/ex1.txt
+   23  pwd
+   24  ls
+   25  ls /usr/bin > ex1.txt
+   26  grep gcc ex1.txt
+   27  grep "gcc" ex1.txt
+   28  ls grep gcc "ex1.txt"
+   29  gcc -v
+   30  g++
+   31  sudo app install gcc
+   32  sudo apt install gcc
+   33  gcc -v
+   34  ls /usr/bin > ex1.txt
+   35  grep gcc ex1.txt
+   36  grep gcc ex1.txt > ex1.txt
+   37  sudo apt install gcc
+   38  grep gcc ex1.txt 
+   39  ls /usr/bin > exx1.txt
+   40  grep gcc exx1.txt
+   41  grep gcc exx1.txt > ex1.txt
+   42  cd ex1.txt
+   43  sort -r ex1.txt
+   44  sort -r ex1.txt > exx1.txt
+   45  sort -r exx1.txt > ex1.txt
+   46  history >ex2.txt
