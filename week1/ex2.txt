@@ -32,15 +32,7 @@
    32  sudo apt install gcc
    33  gcc -v
    34  ls /usr/bin > ex1.txt
-   35  grep gcc ex1.txt
-   36  grep gcc ex1.txt > ex1.txt
    37  sudo apt install gcc
-   38  grep gcc ex1.txt 
-   39  ls /usr/bin > exx1.txt
-   40  grep gcc exx1.txt
-   41  grep gcc exx1.txt > ex1.txt
-   42  cd ex1.txt
-   43  sort -r ex1.txt
-   44  sort -r ex1.txt > exx1.txt
-   45  sort -r exx1.txt > ex1.txt
-   46  history >ex2.txt
+   38  grep gcc ex1.txt > testfile.txt
+   39  sort -r testfile.txt > ex1.txt
+   40  history >ex2.txt
